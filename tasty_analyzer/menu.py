@@ -12,7 +12,7 @@ transaction_map = {}
 # Main menu
 #############################################################################@##
 def main_menu():
-    os.system('clear')
+    os.system('cls')
 
     print ("Welcome,\n")
     print ("Please choose the menu you want to start:")
@@ -35,7 +35,7 @@ def main_menu():
 # Execute menu
 #############################################################################@##
 def exec_menu(choice):
-    os.system('clear')
+    os.system('cls')
     ch = choice.lower()
     if ch == '':
         menu_actions['main_menu']()
